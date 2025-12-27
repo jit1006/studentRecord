@@ -23,6 +23,9 @@ const StudentSchema = new mongoose.Schema({
     address: {
         type: String,
         required: false
+    },
+    photo: {
+        type: String //store base64 encoded data
     }
 });
 
