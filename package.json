@@ -1,0 +1,25 @@
+{
+  "name": "studentrecord",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jit1006/studentRecord#readme",
+  "bugs": {
+    "url": "https://github.com/jit1006/studentRecord/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jit1006/studentRecord.git"
+  },
+  "license": "ISC",
+  "author": "jitendra rana",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2"
+  }
+}
